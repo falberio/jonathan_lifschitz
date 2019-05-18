@@ -1,0 +1,999 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor{
+  margin: auto;
+  max-width: 1300px;
+  width: 90%;
+}
+
+header{
+  background:linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,.9)),url(../img/fondo-home.jpg) left no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -115px;
+}
+
+.menu{
+  position: fixed;
+  width: 100%;
+  transition: .3s;
+  z-index: 9999;
+  padding: 20px 0;
+}
+
+.menu-shadow{
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon{
+  display: none;
+}
+
+header .logo{
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Righteous',cursive;
+}
+
+
+nav ul{
+  justify-content: space-between;
+  display: flex;
+  margin: 0;
+  margin-top: 19px;
+}
+
+nav ul li{
+  margin-right: 46px;
+  list-style: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+nav .opciones-menu{
+  text-decoration: none;
+  color: #FFF;
+  transition: .3s;
+}
+
+nav .opciones-menu:hover{
+  color: rgb(226, 202, 232);
+  transition: .3s;
+}
+
+.contenedor-titulo{
+  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+  padding-top: 160px;
+}
+
+.contenedor-titulo h1{
+  text-align: center;
+  color: #FFF;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.contenedor-titulo h2{
+  text-align: center;
+  color: #FFF;
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.contenedor-titulo a{
+  width: 128px;
+  display: inline-block;
+  color: #FFF;
+  font-size: 14px;
+  background-color: #5cb8ff;
+  padding: 14px 24px;
+  border-radius: 5px;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.contenedor-titulo a:hover{
+  background-color: #59a7ec;
+  transition: .3s;
+}
+
+.contenedor-titulo .titulo{
+  text-align: center;
+}
+
+main .whatsapp-fijo{
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  transition: .3s;
+  opacity: .3;
+}
+
+main .whatsapp-fijo:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transition: .3s;
+}
+
+
+
+/**************************************
+                  ABOUT
+ **************************************/
+
+#about h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#about img{
+  width: 378px;
+}
+
+#about .contenido{
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .about-text{
+  width: 42%;
+}
+
+#about a{
+  background: #5cb8ff;
+  font-size: 14px;
+  color: #FFF;
+  margin-top: 12px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 15px 0;
+  width: 179px;
+  text-align: center;
+  transition: .3s;
+}
+
+#about a:hover{
+  background-color: #59a7ec;
+  transition: .3s;
+}
+
+
+
+
+/**************************************
+                SERVICIOS
+ **************************************/
+
+#servicios{
+  padding: 60px 0;
+}
+
+#servicios h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-servicios .violeta{
+  background-image: linear-gradient(to top, #5055df, #6d68f3);
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+
+.contenedor-servicios .celeste{
+  background-image: linear-gradient(to top, #40a8f9, #5cb8ff);
+  box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.contenedor-servicios{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.contenedor-servicios .servicio{
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  width: 24%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.contenedor-servicios h4{
+  font-size: 30px;
+  margin: 0;
+}
+
+.contenedor-servicios p{
+  opacity: .8;
+  margin-bottom: 20px;
+  height: 210px;
+}
+
+.contenedor-servicios .icono{
+  float: right;
+}
+
+.contenedor-servicios .waves{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+
+
+
+/**************************************
+                TRABAJOS
+ **************************************/
+
+ #trabajos{
+   padding: 60px 0;
+ }
+
+#trabajos h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#trabajos img{
+  transform: scale(1);
+  transition: .3s;
+}
+
+#trabajos img:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+#trabajos p{
+  text-align: center;
+}
+
+.owl-nav button{
+  color: #5cb8ff !important;
+  margin: 0 46px !important;
+  font-size: 59px !important;
+}
+
+.owl-nav button:focus{
+  outline: 0;
+}
+
+.owl-nav button:hover{
+  background: #fff !important;
+  color: #40a8f9 !important;
+}
+
+.owl-dots{
+  display: none;
+}
+
+
+
+
+/**************************************
+                WHY
+ **************************************/
+
+ #why{
+   padding: 60px 0;
+ }
+
+ #why h3{
+   text-align: center;
+   font-size: 55px;
+   font-weight: normal;
+ }
+
+#why .contenedor-why{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#why .item{
+  width: 28%;
+  text-align: center;
+}
+
+#why ul li{
+  list-style: none;
+}
+
+#why ul li:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#why ul li:nth-child(3){
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+/**************************************
+             wordpress
+ **************************************/
+
+ #wordpress{
+   padding: 60px 0;
+ }
+
+ #wordpress h3{
+   text-align: center;
+   font-size: 55px;
+   font-weight: normal;
+   margin: 0;
+ }
+
+ #wordpress p{
+   text-align: center;
+   font-weight: normal;
+ }
+
+ #wordpress .contenedor-wordpress{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ #wordpress img{
+   width: 590px;
+ }
+
+#wordpress .wordpress-lista{
+  width: 41%;
+  margin: auto;
+}
+
+ #wordpress ul li{
+   line-height: 40px;
+ }
+
+
+
+
+ /**************************************
+              HOSTING
+  **************************************/
+
+#hosting{
+  padding: 60px 0;
+}
+
+#hosting h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#hosting p{
+  text-align: center;
+  font-weight: normal;
+  width: 60%;
+  margin: auto;
+  line-height: 35px;
+}
+
+#hosting .contenedor-hosting{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+#hosting .contenedor-hosting .item{
+  width: 40%;
+}
+
+#hosting .contenedor-hosting li:nth-child(1){
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#hosting .contenedor-hosting :nth-child(2){
+  text-align: left;
+}
+
+#hosting .contenedor-hosting img{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#hosting .contenedor-hosting ul li{
+  list-style: none;
+  margin: 15px 0;
+}
+
+
+
+
+ /**************************************
+                  BLOG
+  **************************************/
+
+#blog{
+  padding: 60px 0;
+}
+
+#blog h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#blog .contenedor-blog{
+  display: flex;
+  justify-content: space-around;
+}
+
+#blog .blog-recuadro{
+  width: 400px;
+  box-shadow: 0 12px 30px 0 rgba(21, 44, 56, .3);
+  margin: auto;
+}
+
+#blog .blog-recuadro img{
+  width: 100%;
+}
+
+#blog .remarketing{
+  height: 276px;
+}
+
+
+#blog .blog-recuadro ul li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#blog .blog-recuadro ul li:nth-child(1){
+  font-size: 22px;
+  font-weight: bold;
+  width: 90%;
+}
+
+#blog .blog-recuadro ul li:nth-child(2){
+  opacity: .8;
+  line-height: 26px;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+#blog .blog-recuadro ul li:nth-child(3){
+  margin-bottom: 40px;
+}
+
+#blog .blog-recuadro ul a{
+  background-color: #5cb8ff;
+  font-size: 14px;
+  transition: .3s;
+  width: 165px;
+  color: #FFF;
+  padding: 15px 30PX;;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+#blog .blog-recuadro ul a:hover{
+  background-color: #59a7ec;
+  transition: .3s;
+}
+
+
+
+
+
+ /**************************************
+                  CTA
+  **************************************/
+
+#cta {
+  background: linear-gradient(rgba(84, 93, 220, .9), rgba(96,171,245,.9));
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+#cta h3{
+  color: #fff;
+  font-size: 23px;
+}
+
+#cta a{
+  background-color: #5cb8ff;
+  text-decoration: none;
+  color: #FFF;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: .3s;
+  width: 157px;
+  margin-top: 12px;
+  display: inline-block;
+  letter-spacing: .8px;
+}
+
+#cta a:hover{
+  background-color: #59a7ec;
+  transition: .3s;
+}
+
+
+
+
+
+
+ /**************************************
+                CONTACTO
+  **************************************/
+
+#contacto{
+  padding: 50px 0;
+}
+
+#contacto h3{
+  font-size: 55px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#contacto .form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"], textarea{
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  color: #212121;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+  outline: 0;
+  border-bottom: 1px solid #0387e1;
+}
+
+textarea{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"]{
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+input[type="submit"]{
+  width: 165px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #5cb8ff;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #FFF;
+  box-shadow: 0px 12px 12px 0px rgba(41,45,172,.18);
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  transition: .3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="submit"]:hover{
+  background: #59a7ec;
+  transition: .3s;
+}
+
+
+#contacto .success{
+  color: #fff;
+  background: #44be75;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 90%;
+  right: 100px;
+  display: none;
+}
+
+#contacto .contacto-info{
+  display: flex;
+  justify-content: space-around;
+  width: 83%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#contacto .contacto-info img{
+  vertical-align: middle;
+  width: 28px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+ /**************************************
+                FOOTER
+  **************************************/
+
+footer{
+  background: #2f2f2f;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+#social-media{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#social-media img{
+  margin: 0 38px;
+  transform: rotate(0);
+  transition: .4s;
+}
+
+#social-media img:hover{
+  transform: rotate(360deg);
+  transition: .4s;
+}
+
+footer p{
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+
+
+/******************************************************************************************************************
+              IPAD Y MOBILE
+ ********************************************************************************************************************/
+
+
+
+@media screen and (max-width: 800px){
+
+/********* HEADER ********/
+
+.menu-icon{
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+  margin-top: 17px;
+}
+
+header{
+  margin-top:-121px;
+}
+
+header nav{
+  position: absolute;
+  top: 83px;
+  left: 0;
+  height: 268px;
+  background: #5cb8ff;
+  width: 100%;
+  display: none;
+}
+
+header nav ul{
+  flex-direction: column;
+}
+
+header nav ul li{
+  margin-bottom: 15px;
+}
+
+.titulo h1{
+  font-size: 32px;
+}
+
+.titulo h2{
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+
+
+/********* ABOUT ********/
+
+#about .contenido{
+  flex-direction: column;
+}
+
+#about img{
+  width: 100%;
+}
+
+#about .about-text{
+  width: 100%;
+}
+
+
+
+/********* SERVICIOS ********/
+
+#servicios h3{
+  font-size: 43px;
+}
+
+#servicios .contenedor-servicios{
+  flex-direction: column;
+}
+
+#servicios .servicio{
+  width: 82%;
+  padding: 34px 30px 46px 30px;
+}
+
+#servicios .icono{
+  margin-top: 27px;
+}
+
+
+
+/********* TRABAJOS********/
+
+#trabajos h3{
+  font-size: 43px;
+}
+
+
+
+/********* WHY ********/
+
+#why h3{
+  font-size: 34px;
+}
+
+#why .contenedor-why{
+  flex-direction: column;
+}
+
+#why .item{
+  width: 100%;
+}
+
+#why .item ul{
+  padding: 0;
+}
+
+
+/********* WORDPRESS ********/
+
+#wordpress h3{
+  font-size: 30px;
+}
+
+#wordpress .contenedor-wordpress{
+  flex-direction: column;
+}
+
+#wordpress img{
+  width: 100%;
+}
+
+#wordpress .wordpress-lista{
+  width: 100%;
+}
+
+
+/********* HOSTING ********/
+
+#hosting h3{
+  font-size: 34px;
+}
+
+#hosting p{
+  width: 100%;
+}
+
+#hosting .contenedor-hosting{
+  flex-direction: column;
+}
+
+#hosting .contenedor-hosting .item{
+  width: 100%;
+}
+
+#hosting .contenedor-hosting .item ul{
+  padding-left: 0;
+}
+
+
+
+
+/********* BLOG ********/
+
+#blog h3{
+  font-size: 43px;
+}
+
+#blog .contenedor-blog{
+  flex-direction: column;
+}
+
+#blog .contenedor-blog .blog-recuadro{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+
+/********* Contacto ********/
+
+#contacto .form{
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+#contacto .elementos-formulario{
+  width: 100%;
+}
+
+#contacto .contacto-info{
+  flex-direction: column;
+  margin-left: 0;
+}
+
+
+
+
+
+/********* FOOTER ********/
+
+footer{
+  margin-top: 0;
+  padding-bottom: 50px;
+}
+
+footer #social-media{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+footer #social-media img{
+  margin: 10px;
+}
+
+footer p{
+  font-size: 14px;
+  margin-top: 30px;
+  width: 84%;
+  margin: auto;
+}
+
+#contacto .success{
+  color: #fff;
+  background: #44be75;
+  padding: 15px 20px;
+  position: fixed;
+  top: 86%;
+  width: 59%;
+  left: 13%;
+  text-align: center;
+  z-index: 11;
+  display: none;
+
+
+}
+
+
+}
+
+
+
+/******************************************************************************************************************
+              IPAD
+ ********************************************************************************************************************/
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+
+header{
+  margin-top: -188px;
+  height: 60vh;
+}
+
+#servicios .servicio{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#blog .blog-recuadro{
+  width: 70% !important;
+  margin: auto;
+}
+
+.success{
+color: #fff;
+background: #44be75;
+padding: 15px 20px;
+position: fixed;
+top: 86%;  width: 67%;
+left: 13%;
+text-align: center;
+z-index: 11;
+font-size: 30px;
+display: none;
+}
+
+
+
+}
+
+
+
+
+/******************************************************************************************************************
+              IPAD PRO
+ ********************************************************************************************************************/
+
+@media screen and (width: 1024px){
+
+header{
+  height: 50vh;
+}
+
+header .contenedor-titulo{
+  margin: 8vh 0;
+}
+
+
+
+
+}
